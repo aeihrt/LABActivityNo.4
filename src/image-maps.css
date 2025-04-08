@@ -1,0 +1,221 @@
+/* colors */
+
+:root {
+    --text-primary: #6b5758;
+    --light-cream: #fffcf3;
+    --medium-cream: #fff9eb;
+    --bg-color: #ffd6e0;
+    --strong-pink: #fb9ab1;
+    --yellow: #fbedd3;
+    --green: #d7f1d9;
+    --dark-brown: #423132;
+    --light-brown: #4c3f40;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+/* text style */
+
+@font-face {
+    font-family: 'quicksand';
+    src: url('fonts/Quicksand-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'quicksandBold';
+    src: url('fonts/Quicksand-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'SuperChunky-Regular';
+    src: url('fonts/Super Chunky Personal Use.ttf');
+}
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url('fonts/Minecraft.ttf');
+}
+
+.close {
+    box-sizing: border-box;
+}
+
+.close {
+    background: var(--yellow, #fbedd3);
+    border-radius: 10px;
+    border: 4px solid #4c3f40;
+    padding: 5px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    width: 47px;
+    height: 47px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.close2 {
+    flex-shrink: 0;
+    width: 41px;
+    height: 41px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #4c3f40;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close:hover {
+    background-color: var(--strong-pink); /* hover effect */
+}
+
+.my-map{
+    box-sizing: border-box;
+}
+
+.my-map {
+    border-radius: 20px;
+    border-style: solid;
+    border-color: var(--light-brown, #4c3f40);
+    border-width: 4px;
+    width: 1063px;
+    height: 945px;
+    position: absolute;
+    left: 428px;
+    top: 68px;
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 1063/945;
+}
+
+.ayala {
+    position: absolute;
+    inset: 0;
+}
+
+.ayala-mark {
+    width: 94.375px;
+    height: 132.125px;
+    position: relative;
+    right: 43.21px;
+    left: 980px;
+    bottom: 16.19px;
+    top: 770px;
+    overflow: visible;
+}
+
+.ayala-loc {
+    background: var(--light-cream, #fffcf3);
+    border-radius: 15px;
+    border-style: solid;
+    border-color: var(--strong-pink, #fb9ab1);
+    border-width: 3px;
+    padding: 12px 13px 12px 13px;
+    width: 80px;
+    height: 9px;
+    position: absolute;
+    left: 980px;
+    top: 850px;
+}
+
+.ayala2 {
+    color: var(--dark-brown, #423132);
+    text-align: center;
+    font-family: 'quicksandBold', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    left: 26px;
+    top: 6px;
+    bottom: 5px;
+}
+
+.inflatable {
+    position: absolute;
+    inset: 0;
+}
+
+.inflatable-mark {
+    width: 94.375px;
+    height: 132.125px;
+    position: relative;
+    right: 42.21px;
+    left: 560px;
+    bottom: 68.32px;
+    top: 190px;
+    overflow: visible;
+}
+
+.inflatable-loc {
+    background: var(--light-cream, #fffcf3);
+    border-radius: 15px;
+    border-style: solid;
+    border-color: var(--strong-pink, #fb9ab1);
+    border-width: 3px;
+    padding: 12px 13px 12px 13px;
+    width: 90px;
+    height: 9px;
+    position: absolute;
+    left: 650px;
+    top: 273px;
+}
+
+.inflatable2 {
+    color: var(--dark-brown, #423132);
+    text-align: justified;
+    font-family: 'quicksandBold', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    left: 13px;
+    top: 6px;
+    bottom: 5px;
+}
+
+.barretto {
+    position: absolute;
+    inset: 0;
+}
+
+.barretto-mark {
+    width: 94.375px;
+    height: 132.125px;
+    position: relative;
+    right: 42.21px;
+    left: 300px;
+    bottom: 68.32px;
+    top: 90px;
+    overflow: visible;
+}
+
+.barretto-loc {
+    background: var(--light-cream, #fffcf3);
+    border-radius: 15px;
+    border-style: solid;
+    border-color: var(--strong-pink, #fb9ab1);
+    border-width: 3px;
+    padding: 12px 13px 12px 13px;
+    width: 90px;
+    height: 9px;
+    position: absolute;
+    left: 490px;
+    top: 170px;
+}
+
+.barretto2 {
+    color: var(--dark-brown, #423132);
+    text-align: justified;
+    font-family: 'quicksandBold', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    left: 18px;
+    top: 6px;
+    bottom: 5px;
+}

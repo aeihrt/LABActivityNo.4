@@ -1,0 +1,201 @@
+/* colors */
+
+:root {
+    --text-primary: #6b5758;
+    --light-cream: #fffcf3;
+    --medium-cream: #fff9eb;
+    --bg-color: #ffd6e0;
+    --strong-pink: #fb9ab1;
+    --yellow: #fbedd3;
+    --green: #d7f1d9;
+    --dark-brown: #423132;
+    --light-brown: #4c3f40;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+/* text style */
+
+@font-face {
+    font-family: 'quicksand';
+    src: url('fonts/Quicksand-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'quicksandBold';
+    src: url('fonts/Quicksand-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'SuperChunky-Regular';
+    src: url('fonts/Super Chunky Personal Use.ttf');
+}
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url('fonts/Minecraft.ttf');
+}
+
+.start-page {
+    box-sizing: border-box;
+}
+
+.start-page {
+    background: var(--bg-color, #ffd6e0);
+    height: 1080px;
+    position: relative;
+    overflow: hidden;
+}
+
+.title {
+    color: var(--light-cream, #fffcf3);
+    text-align: left;
+    font-family: 'SuperChunky-Regular', sans-serif;
+    font-size: 170px;
+    font-weight: 400;
+    position: absolute;
+    left: 362px;
+    top: 399px;
+    width: 1195px;
+    height: 153px;
+    -webkit-text-stroke: 5px var(--dark-brown, #423132);
+}
+
+.description {
+    color: var(--dark-brown, #423132);
+    text-align: left;
+    font-family: 'quicksandBold', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    left: 520px;
+    top: 589px;
+    -webkit-text-stroke: 2px var(--dark-brown, #423132);
+}
+
+.location-png {
+    width: 120px;
+    height: 163px;
+    position: absolute;
+    left: 1134px;
+    top: 302px;
+    overflow: visible;
+}
+
+.button-1 {
+    width: 258px;
+    height: 73px;
+    position: absolute;
+    left: 831px;
+    top: 748px;
+}
+  
+.rectangle-2 {
+    width: 271px;
+    height: 78px;
+    background-color: var(--dark-brown);
+    border: 5px solid #423132;
+    border-radius: 35px;
+    position: absolute;
+    left: -21px;
+    top: 9px;
+    overflow: visible;
+}
+  
+.rectangle-1 {
+    width: 271px;
+    height: 78px;
+    background-color: #FCFEFE;
+    border: 5px solid #423132;
+    border-radius: 35px;
+    position: absolute;
+    left: -13px;
+    top: 0px;
+    overflow: visible;
+    transition: background-color 0.3s ease;
+}
+  
+.button-1:hover .rectangle-1 {
+    background-color: var(--green); /* hover effect */
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    position: relative;
+}
+
+.start {
+    color: var(--light-brown, #4c3f40);
+    text-align: left;
+    font-family: 'Minecraft', sans-serif;
+    font-size: 50px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    position: relative;
+    left: 38px;
+    top: 19px;
+    -webkit-text-stroke: 3px var(--light-brown, #4c3f40);
+}
+
+.star-15 {
+    border-radius: 0px;
+    width: 83.69px;
+    height: 80.7px;
+    position: absolute;
+    left: 286px;
+    top: 383.04px;
+    transform: translate(21.39px, -11.4px);
+    ;
+    overflow: visible;
+}
+
+.star-14 {
+    border-radius: 0px;
+    width: 59.46px;
+    height: 57.33px;
+    position: absolute;
+    left: 648.49px;
+    top: 370.71px;
+    transform: translate(3.35px, 13.39px);
+    ;
+    overflow: visible;
+}
+
+.star-13 {
+    border-radius: 0px;
+    width: 77.1px;
+    height: 74.35px;
+    position: absolute;
+    left: 977.05px;
+    top: 354px;
+    transform: translate(-46.5px, 20.63px);
+    ;
+    overflow: visible;
+}
+
+.star-12 {
+    border-radius: 0px;
+    width: 61.17px;
+    height: 58.98px;
+    position: absolute;
+    left: 1538.97px;
+    top: 375px;
+    transform: translate(-1.64px, 17.33px);
+    ;
+    overflow: visible;
+}
+
+.star-11 {
+    border-radius: 0px;
+    width: 61.17px;
+    height: 58.98px;
+    position: absolute;
+    left: 1595.97px;
+    top: 358px;
+    transform: translate(-1.64px, 17.33px);
+    ;
+    overflow: visible;
+}
